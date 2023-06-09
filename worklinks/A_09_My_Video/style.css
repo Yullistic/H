@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    list-style: none;
+    text-decoration: none;
+    background-position: center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    
+}
+html{
+    scroll-behavior: smooth;
+  }
+
+h1{
+    padding: 2%;
+    color:rgb(2, 70, 32);
+}
+  .wrapper{
+ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(leaves.png);
+  }
+  .container{
+    width:100%;
+    float:left;
+    text-align:center;
+    padding-top: 5%;
+  }
+
+iframe {
+    
+    width:660px;
+     height:415px;
+    margin: 0 auto; 
+
+}
+.homepage  {
+  font-size: 40px;
+  padding: 30px;
+  color: #f0e3e3;
+  background: linear-gradient(to right, rgb(255, 166, 46), rgb(247, 27, 61));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+float: right;
+
+
+}
+
+
+.homepage:hover{
+background:rgb(255, 255, 255);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
